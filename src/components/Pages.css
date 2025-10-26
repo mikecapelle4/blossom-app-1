@@ -1,0 +1,447 @@
+/* Shared Styles for All Pages */
+.page-container {
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.page-header {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #e8f5f2;
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #1a3b36;
+  font-weight: 700;
+}
+
+.page-header p {
+  font-size: 1.3rem;
+  color: #1a3b36;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Services Page Styles */
+.services-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.category-card {
+  background: #fefefe;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(26, 59, 54, 0.1);
+  text-align: center;
+  border: 1px solid #e8f5f2;
+}
+
+.category-card h2 {
+  color: #1a3b36;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.service-placeholder {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(45deg, #e0e0e0, #f5f5f5);
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  color: #777;
+}
+
+.category-card ul {
+  text-align: left;
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+}
+
+.category-card li {
+  margin-bottom: 0.5rem;
+  color: #1a3b36;
+  opacity: 0.8;
+}
+
+.category-card p {
+  color: #1a3b36;
+  opacity: 0.6;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+/* About Page Styles */
+.about-sections {
+  margin-top: 2rem;
+}
+
+.about-section {
+  margin-bottom: 4rem;
+}
+
+.about-section h2 {
+  color: #1a3b36;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.content-with-placeholder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.text-content ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.text-content li {
+  margin-bottom: 0.5rem;
+  color: #1a3b36;
+  opacity: 0.8;
+}
+
+.image-placeholder,
+.team-photo-placeholder {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(45deg, #e0e0e0, #f5f5f5);
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #777;
+}
+
+.mission-content {
+  background: #f8fffe;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #e8f5f2;
+}
+
+.mission-content ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.team-member {
+  text-align: center;
+  padding: 1.5rem;
+  background: #fefefe;
+  border-radius: 15px;
+  box-shadow: 0 3px 15px rgba(26, 59, 54, 0.1);
+  border: 1px solid #e8f5f2;
+}
+
+.team-photo-placeholder {
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  color: #1a3b36;
+  margin: 1rem 0 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+/* Contact Page Styles */
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.form-placeholder {
+  background: #f8fffe;
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px dashed #1a3b36;
+  opacity: 0.7;
+}
+
+.form-fields {
+  margin-top: 1rem;
+}
+
+.field-placeholder {
+  background: #fefefe;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e8f5f2;
+  color: #1a3b36;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.contact-details-large {
+  margin-bottom: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.contact-item strong {
+  display: block;
+  color: #1a3b36;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-item p {
+  margin: 0;
+  color: #1a3b36;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+.large-map-placeholder {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(45deg, #e0e0e0, #f5f5f5);
+  border: 2px dashed #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #777;
+  text-align: center;
+}
+
+.booking-cta {
+  background: #e8f5f2;
+  color: #1a3b36;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  margin-top: 3rem;
+}
+
+.booking-cta h2 {
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+.booking-cta p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Book Now Button (reused from HomePage) */
+.book-now-btn {
+  background: #1a3b36;
+  color: #957f02;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(26, 59, 54, 0.3);
+}
+
+.book-now-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(26, 59, 54, 0.4);
+  background: #2d5550;
+}
+
+.book-now-btn.secondary {
+  background: #2d5550;
+  box-shadow: 0 4px 15px rgba(45, 85, 80, 0.3);
+}
+
+.book-now-btn.secondary:hover {
+  box-shadow: 0 6px 20px rgba(45, 85, 80, 0.4);
+  background: #1a3b36;
+}
+
+/* Service Detail Pages Styles */
+.service-detail {
+  margin-top: 2rem;
+}
+
+.service-description {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.service-description h2 {
+  color: #1a3b36;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.service-description h3 {
+  color: #1a3b36;
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem 0;
+  border-bottom: 2px solid #e8f5f2;
+  padding-bottom: 0.5rem;
+}
+
+.service-description p {
+  color: #1a3b36;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.service-description ul {
+  margin: 1rem 0 1.5rem 1rem;
+  padding-left: 1rem;
+}
+
+.service-description li {
+  color: #1a3b36;
+  margin-bottom: 0.5rem;
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
+.service-info {
+  background: #f8fffe;
+  padding: 2rem;
+  border-radius: 15px;
+  border: 1px solid #e8f5f2;
+  margin: 2rem 0;
+}
+
+.service-info h3 {
+  border: none;
+  margin-top: 0;
+  color: #1a3b36;
+}
+
+.service-info p {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.important-note {
+  background: #fff8e7;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #ffa726;
+  margin: 2rem 0;
+}
+
+.important-note h3 {
+  color: #e65100;
+  margin-top: 0;
+  border: none;
+}
+
+.important-note p {
+  color: #bf360c;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .page-header {
+    padding: 2rem 1rem;
+  }
+  
+  .page-header h1 {
+    font-size: 2.2rem;
+  }
+  
+  .page-content {
+    padding: 1rem;
+  }
+  
+  .services-categories {
+    grid-template-columns: 1fr;
+  }
+  
+  .content-with-placeholder {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  /* Service detail mobile styles */
+  .service-description h2 {
+    font-size: 1.8rem;
+  }
+  
+  .service-description h3 {
+    font-size: 1.3rem;
+  }
+  
+  .service-info {
+    padding: 1.5rem;
+  }
+  
+  .important-note {
+    padding: 1rem;
+  }
+}
