@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/blossom-app-1/static/css/main.2716455f.css",
-    "main.js": "/blossom-app-1/static/js/main.55b1d140.js",
-    "static/media/image2.jpg": "/blossom-app-1/static/media/image2.4bd2434bb4c2e879cb97.jpg",
-    "static/media/shop-both.jpg": "/blossom-app-1/static/media/shop-both.5ea143804aa34b57093f.jpg",
-    "static/media/shop-front.jpg": "/blossom-app-1/static/media/shop-front.66d0fc3feb4f2a72e280.jpg",
-    "static/media/logo.png": "/blossom-app-1/static/media/logo.62464b9b8ebd1f1dbeaf.png",
-    "static/media/image1.jpg": "/blossom-app-1/static/media/image1.8ce9746aa9542bb18783.jpg",
-    "static/media/image6.jpg": "/blossom-app-1/static/media/image6.10240450c9ba820dd1bb.jpg",
-    "static/media/image4.jpg": "/blossom-app-1/static/media/image4.c5a5421602c7ea27b94b.jpg",
-    "index.html": "/blossom-app-1/index.html",
-    "main.2716455f.css.map": "/blossom-app-1/static/css/main.2716455f.css.map",
-    "main.55b1d140.js.map": "/blossom-app-1/static/js/main.55b1d140.js.map"
+    "main.css": "/static/css/main.2716455f.css",
+    "main.js": "/static/js/main.a7e4a7b9.js",
+    "static/media/image2.jpg": "/static/media/image2.4bd2434bb4c2e879cb97.jpg",
+    "static/media/shop-both.jpg": "/static/media/shop-both.5ea143804aa34b57093f.jpg",
+    "static/media/shop-front.jpg": "/static/media/shop-front.66d0fc3feb4f2a72e280.jpg",
+    "static/media/logo.png": "/static/media/logo.62464b9b8ebd1f1dbeaf.png",
+    "static/media/image1.jpg": "/static/media/image1.8ce9746aa9542bb18783.jpg",
+    "static/media/image6.jpg": "/static/media/image6.10240450c9ba820dd1bb.jpg",
+    "static/media/image4.jpg": "/static/media/image4.c5a5421602c7ea27b94b.jpg",
+    "index.html": "/index.html",
+    "main.2716455f.css.map": "/static/css/main.2716455f.css.map",
+    "main.a7e4a7b9.js.map": "/static/js/main.a7e4a7b9.js.map"
   },
   "entrypoints": [
     "static/css/main.2716455f.css",
-    "static/js/main.55b1d140.js"
+    "static/js/main.a7e4a7b9.js"
   ]
 }
