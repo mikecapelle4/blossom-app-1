@@ -73,12 +73,6 @@ function NavBar({ onPageChange, currentPage }: NavBarProps) {
               </button>
               <div className={`dropdown-menu ${isServicesDropdownOpen ? 'dropdown-menu-open' : ''}`}>
                 <button 
-                  className={`dropdown-link ${currentPage === 'services' ? 'active' : ''}`}
-                  onClick={() => handlePageClick('services')}
-                >
-                  All Services
-                </button>
-                <button 
                   className={`dropdown-link ${currentPage === 'semi-permanent-brows' ? 'active' : ''}`}
                   onClick={() => handlePageClick('semi-permanent-brows')}
                 >

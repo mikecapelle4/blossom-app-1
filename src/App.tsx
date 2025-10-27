@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import NavBar from './components/nav-bar/nav-bar';
 import HomePage from './components/HomePage';
-import ServicesPage from './components/ServicesPage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import SemiPermanentBrowsPage from './components/SemiPermanentBrowsPage';
@@ -18,8 +17,7 @@ function App() {
 
   const renderCurrentPage = () => {
     switch (currentPage) {
-      case 'services':
-        return <ServicesPage />;
+
       case 'semi-permanent-brows':
         return <SemiPermanentBrowsPage />;
       case 'bespoke-facials':

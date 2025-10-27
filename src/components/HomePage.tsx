@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css';
-import { image1, image2, image3, image4 } from '../images/index';
+import { image1, image2, image4 } from '../images/index';
 
 function HomePage() {
   return (
@@ -33,34 +33,30 @@ function HomePage() {
               <img src={image1} alt="Lucy" />
             </div>
             <div className="founder-content">
-              <h2>Meet Lucy - TEXT NEEDS UPDATING</h2>
+              <h2>Meet Lucy - Advanced Beauty & Aesthetic Specialist</h2>
               <p>
-                With over 15 years of experience in the beauty industry, Lucy brings a wealth of 
-                knowledge and passion to Blossom Advanced Beauty. Specialising in advanced skincare 
-                treatments and aesthetic procedures, she is dedicated to helping clients achieve 
-                their beauty goals with personalized care and attention.
+                With over 15 years of experience in the beauty industry, Lucy brings a wealth of expertise and passion to Blossom Advanced Beauty. Specialising in advanced skincare and aesthetic treatments, she is dedicated to helping clients achieve their beauty goals through personalised care and attention.
               </p>
               <p>
-                Lucy's expertise includes facial treatments, anti-aging procedures, and skin rejuvenation 
-                techniques. She believes in enhancing natural beauty while maintaining the highest 
-                standards of safety and professionalism.
+                Her expertise includes a range of anti-aging treatments such as RF facials, dermaplaning, and microneedling, all designed to rejuvenate and revitalise the skin. Lucy is passionate about enhancing her clients’ natural beauty, offering treatments like Korean lash lifts that subtly elevate and define natural features.
+              </p>
+              <p>
+                In addition to her skincare services, Lucy also performs advanced aesthetic treatments including nano brows and fine line tattoos, delivering beautiful, refined results with precision and artistry. Her approach combines professionalism, safety, and a genuine love for helping clients feel confident in their own skin.
               </p>
             </div>
           </div>
           
           <div className="founder">
             <div className="founder-content">
-              <h2>Meet Hannah - TEXT NEEDS UPDATING</h2>
+              <h2>Meet Hannah - Advanced Beauty & Aesthetic Specialist</h2>
               <p>
-                Hannah brings her extensive background in beauty therapy and cosmetic treatments to 
-                create a truly exceptional salon experience. With a keen eye for detail and a 
-                commitment to continuous learning, she stays at the forefront of the latest beauty 
-                innovations and techniques.
+                With over 25 years of experience in the beauty industry, Hannah brings exceptional expertise and passion to Blossom Advanced Beauty. Her career began aboard luxury cruise ships, where she refined her skills and developed a deep appreciation for providing outstanding client care. Since then, she has built a successful career in salon life, offering a wide range of advanced aesthetic treatments.
               </p>
               <p>
-                Specialising in lash extensions, brow treatments, and nail artistry, Hannah ensures 
-                every client leaves feeling pampered and confident. Her warm personality and 
-                professional approach make every visit a delightful experience.
+                 Hannah specialises in advanced facials, including RF facials, dermaplaning, and microneedling, helping clients achieve radiant, youthful-looking skin. She also performs nano brows and fine line tattoos, creating natural, confidence-boosting results with precision and care.
+              </p>
+              <p>
+                Dedicated to enhancing natural beauty and restoring self-confidence, Hannah combines her extensive experience with a warm, friendly approach — ensuring every client feels relaxed, valued, and beautifully renewed after every visit.
               </p>
             </div>
             <div className="founder-image">
