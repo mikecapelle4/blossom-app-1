@@ -112,9 +112,7 @@ function NavBar({ onPageChange, currentPage }: NavBarProps) {
           
           {/* Book Now Button */}
           <div className="book-now-container">
-            <button className="book-now-btn">
-              Book Now
-            </button>
+              <button className="book-now-btn" onClick={() => window.open("https://www.fresha.com/a/blossom-advanced-beauty-selby-22-finkle-street-ktszw6h1/booking?allOffer=true&cartId=e84887c7-f33b-49f1-b7fb-f92c0562ce91t", "_blank")}>Book Now</button>
           </div>
           
           {/* Social Media Buttons */}

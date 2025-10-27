@@ -133,7 +133,7 @@ function HomePage() {
       <section className="cta-section">
         <h2>Ready to Experience Blossom Advanced Beauty?</h2>
         <p>Book your appointment today and let our experts take care of you</p>
-        <button className="book-now-btn large">Book Your Appointment</button>
+        <button className="book-now-btn large" onClick={() => window.open("https://www.fresha.com/a/blossom-advanced-beauty-selby-22-finkle-street-ktszw6h1/booking?allOffer=true&cartId=e84887c7-f33b-49f1-b7fb-f92c0562ce91", "_blank")}>Book Your Appointment</button >
       </section>
     </div>
   );
